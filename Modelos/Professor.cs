@@ -7,20 +7,32 @@ namespace Modelos
         [Key]
         public int ProfessorID { get; set; }
 
-
-        private string nome;
-
-        public string Nome
+        private string nomeProfessor;
+        public string NomeProfessor
         {
-            get { return nome; }
-            set { nome = value; }
+            get { return nomeProfessor; }
+            set { nomeProfessor = value; }
         }
 
         [Required]
-        public string Cpf
+        public string CPF
         {
             get; set;
         }
 
+        public string EmailProfessor
+        {
+            get; set;
+        }
+
+        public string Formacao
+        {
+            get; set;
+        }
+
+        public string FoneProfessor
+        {
+            get; set;
+        }
     }
 }

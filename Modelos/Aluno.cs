@@ -7,9 +7,7 @@ namespace Modelos
         [Key]
         public int AlunoID { get; set; }
 
-
         private string nome;
-
         public string Nome
         {
             get { return nome; }
