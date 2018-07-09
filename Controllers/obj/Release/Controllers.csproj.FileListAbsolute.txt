@@ -1,0 +1,15 @@
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\Controllers.dll.config
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\Controllers.dll
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\Controllers.pdb
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\EntityFramework.dll
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\Modelos.dll
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\Modelos.pdb
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\Modelos.dll.config
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\EntityFramework.xml
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\obj\Release\Controllers.csprojAssemblyReference.cache
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\obj\Release\Controllers.csproj.CoreCompileInputs.cache
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\obj\Release\Controllers.csproj.CopyComplete
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\obj\Release\Controllers.dll
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\Controllers\obj\Release\Controllers.pdb

@@ -12,8 +12,9 @@ namespace Controllers.DAL
 
         public DbSet<Aluno> Alunos { get; set; } //tabela alunos
 
+        public DbSet<Professor> Professores { get; set; } //tabela Professores
 
-
+        public DbSet<Disciplina> Disciplinas { get; set; } //tabela Disciplinas
 
     }
 
