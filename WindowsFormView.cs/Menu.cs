@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using WindowsFormView.cs.TelasProfessor;
 using WindowsFormView.TelasAluno;
 
 namespace WindowsFormView.cs
@@ -14,6 +15,13 @@ namespace WindowsFormView.cs
         private void btnAlunos_Click(object sender, EventArgs e)
         {
             frmCadastroAluno f = new frmCadastroAluno();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void btnProfessores_Click(object sender, EventArgs e)
+        {
+            frmCadastroProfessor f = new frmCadastroProfessor();
             f.ShowDialog();
             f.Dispose();
         }

@@ -77,7 +77,7 @@
             this.txtMatricula.Location = new System.Drawing.Point(87, 40);
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(49, 20);
-            this.txtMatricula.TabIndex = 3;
+            this.txtMatricula.TabIndex = 2;
             // 
             // btnSalvarAluno
             // 
@@ -87,7 +87,7 @@
             this.btnSalvarAluno.Location = new System.Drawing.Point(21, 121);
             this.btnSalvarAluno.Name = "btnSalvarAluno";
             this.btnSalvarAluno.Size = new System.Drawing.Size(75, 23);
-            this.btnSalvarAluno.TabIndex = 4;
+            this.btnSalvarAluno.TabIndex = 6;
             this.btnSalvarAluno.Text = "Inserir";
             this.btnSalvarAluno.UseVisualStyleBackColor = false;
             this.btnSalvarAluno.Click += new System.EventHandler(this.btnSalvarAluno_Click);
@@ -100,7 +100,7 @@
             this.btnCancelarAluno.Location = new System.Drawing.Point(426, 121);
             this.btnCancelarAluno.Name = "btnCancelarAluno";
             this.btnCancelarAluno.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelarAluno.TabIndex = 5;
+            this.btnCancelarAluno.TabIndex = 7;
             this.btnCancelarAluno.Text = "Limpar";
             this.btnCancelarAluno.UseVisualStyleBackColor = false;
             this.btnCancelarAluno.Click += new System.EventHandler(this.btnCancelarAluno_Click);
@@ -113,7 +113,7 @@
             this.btnLocalizarAluno.Location = new System.Drawing.Point(117, 121);
             this.btnLocalizarAluno.Name = "btnLocalizarAluno";
             this.btnLocalizarAluno.Size = new System.Drawing.Size(75, 23);
-            this.btnLocalizarAluno.TabIndex = 6;
+            this.btnLocalizarAluno.TabIndex = 0;
             this.btnLocalizarAluno.Text = "Localizar";
             this.btnLocalizarAluno.UseVisualStyleBackColor = false;
             this.btnLocalizarAluno.Click += new System.EventHandler(this.btnLocalizarAluno_Click);
@@ -126,7 +126,7 @@
             this.btnAlterarAluno.Location = new System.Drawing.Point(217, 121);
             this.btnAlterarAluno.Name = "btnAlterarAluno";
             this.btnAlterarAluno.Size = new System.Drawing.Size(75, 23);
-            this.btnAlterarAluno.TabIndex = 7;
+            this.btnAlterarAluno.TabIndex = 9;
             this.btnAlterarAluno.Text = "Alterar";
             this.btnAlterarAluno.UseVisualStyleBackColor = false;
             this.btnAlterarAluno.Click += new System.EventHandler(this.btnAlterarAluno_Click);
@@ -174,21 +174,21 @@
             this.cmbAnoAluno.Location = new System.Drawing.Point(87, 70);
             this.cmbAnoAluno.Name = "cmbAnoAluno";
             this.cmbAnoAluno.Size = new System.Drawing.Size(121, 21);
-            this.cmbAnoAluno.TabIndex = 12;
+            this.cmbAnoAluno.TabIndex = 4;
             // 
             // txtEmailAluno
             // 
             this.txtEmailAluno.Location = new System.Drawing.Point(190, 40);
             this.txtEmailAluno.Name = "txtEmailAluno";
             this.txtEmailAluno.Size = new System.Drawing.Size(320, 20);
-            this.txtEmailAluno.TabIndex = 13;
+            this.txtEmailAluno.TabIndex = 3;
             // 
             // txtFoneAluno
             // 
             this.txtFoneAluno.Location = new System.Drawing.Point(256, 71);
             this.txtFoneAluno.Name = "txtFoneAluno";
             this.txtFoneAluno.Size = new System.Drawing.Size(196, 20);
-            this.txtFoneAluno.TabIndex = 14;
+            this.txtFoneAluno.TabIndex = 5;
             // 
             // label4
             // 
@@ -240,6 +240,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNomeAluno);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "frmCadastroAluno";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Alunos";

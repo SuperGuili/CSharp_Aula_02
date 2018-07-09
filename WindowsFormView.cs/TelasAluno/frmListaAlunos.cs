@@ -25,11 +25,10 @@ namespace WindowsFormView.cs.TelasAluno
 
         private void dgvAlunos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex >= 0)
+            if (e.ColumnIndex >= 0 && e.RowIndex > -1)
             {
                 this.ID = Convert.ToInt32(dgvAlunos.Rows[e.RowIndex].Cells[0].Value);
-                Close();
-                               
+                Close();       
             }
         }
     }

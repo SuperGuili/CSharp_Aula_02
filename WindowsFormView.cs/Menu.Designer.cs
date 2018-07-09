@@ -58,6 +58,7 @@
             this.btnProfessores.TabIndex = 1;
             this.btnProfessores.Text = "Professores";
             this.btnProfessores.UseVisualStyleBackColor = false;
+            this.btnProfessores.Click += new System.EventHandler(this.btnProfessores_Click);
             // 
             // btnDisciplinas
             // 
@@ -75,7 +76,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(112, 33);
+            this.label1.Location = new System.Drawing.Point(104, 51);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(308, 20);
             this.label1.TabIndex = 3;

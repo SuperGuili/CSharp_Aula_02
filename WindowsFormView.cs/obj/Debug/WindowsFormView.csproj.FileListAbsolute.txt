@@ -21,3 +21,5 @@ C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\bin\
 C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\Debug\WindowsFormView.csprojAssemblyReference.cache
 C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\Debug\WindowsFormView.cs.frmMenu.resources
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\Debug\WindowsFormView.cs.TelasProfessor.frmCadastroProfessor.resources
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\Debug\WindowsFormView.cs.TelasProfessor.frmListaProfessores.resources

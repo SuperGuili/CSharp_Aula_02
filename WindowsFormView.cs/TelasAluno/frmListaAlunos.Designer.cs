@@ -43,6 +43,7 @@
             // 
             this.dgvAlunos.AllowUserToAddRows = false;
             this.dgvAlunos.AllowUserToDeleteRows = false;
+            this.dgvAlunos.AllowUserToOrderColumns = true;
             this.dgvAlunos.AllowUserToResizeColumns = false;
             this.dgvAlunos.AllowUserToResizeRows = false;
             this.dgvAlunos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -140,6 +141,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvAlunos);
+            this.MaximizeBox = false;
             this.Name = "frmListaAlunos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de Alunos";
