@@ -23,3 +23,5 @@ C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\
 C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\Release\WindowsFormView.csproj.CopyComplete
 C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\Release\WindowsFormView.cs.exe
 C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\Release\WindowsFormView.cs.pdb
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\Release\WindowsFormView.cs.TelasDisciplina.frmCadastroDisciplina.resources
+C:\Users\guili\Desktop\C#\presencial_02\AulasPresenciais\WindowsFormView.cs\obj\Release\WindowsFormView.cs.TelasDisciplina.frmListaDisciplinas.resources

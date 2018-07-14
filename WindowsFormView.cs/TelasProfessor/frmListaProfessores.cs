@@ -37,5 +37,12 @@ namespace WindowsFormView.cs.TelasProfessor
                 Close();
             }
         }
+
+        private void btnAcharProfessor_Click(object sender, EventArgs e)
+        {
+            ProfessoresController professorController = new ProfessoresController();
+
+            dgvProfessores.DataSource = professorController.BuscarPorNomeProfessor(txtAcharProfessor.Text);
+        }
     }
 }

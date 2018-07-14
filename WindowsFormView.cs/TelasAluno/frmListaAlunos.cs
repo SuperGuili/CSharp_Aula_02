@@ -31,5 +31,13 @@ namespace WindowsFormView.cs.TelasAluno
                 Close();       
             }
         }
+
+        private void btnAcharAluno_Click(object sender, EventArgs e)
+        {
+            AlunosController alunosController = new AlunosController();
+
+            dgvAlunos.DataSource = alunosController.BuscarPorNome(txtAcharAluno.Text);
+           
+        }
     }
 }
