@@ -71,6 +71,7 @@
             this.btnDisciplinas.TabIndex = 2;
             this.btnDisciplinas.Text = "Disciplinas";
             this.btnDisciplinas.UseVisualStyleBackColor = false;
+            this.btnDisciplinas.Click += new System.EventHandler(this.btnDisciplinas_Click);
             // 
             // label1
             // 
