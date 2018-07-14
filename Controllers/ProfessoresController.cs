@@ -26,11 +26,11 @@ namespace Controllers
             return contextoP.Professores.ToList();
         }
 
-        public Professor BuscarPorCPF(string cpf)
+        public Professor BuscarPorNome()
         {   // usando LINQ
-            var professor = from a in contextoP.Professores
-                        where a.CPF == cpf
-                        select a;
+            var professor = from p in contextoP.Professores
+                        
+                        select p;
 
             return (Professor)professor;
         }
@@ -52,5 +52,13 @@ namespace Controllers
             contextoP.Professores.Remove(professor);
             contextoP.SaveChanges();
         }
+
+        public List<Professor> BuscarPorNomeProfessor(string nome)
+        {   // usando Lambda
+
+            var professor = contextoP.Professores.Where(p => p.NomeProfessor.Contains(nome));
+            return professor.ToList();
+        }
+
     }
 }

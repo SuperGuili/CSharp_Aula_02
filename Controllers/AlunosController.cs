@@ -46,5 +46,12 @@ namespace Controllers
             contexto.Alunos.Remove(aluno);
             contexto.SaveChanges();
         }
+
+        public List<Aluno> BuscarPorNome(string nome)
+        {   // usando Lambda
+            
+            var aluno = contexto.Alunos.Where(a => a.Nome.Contains(nome));
+            return aluno.ToList();
+        }
     }
 }

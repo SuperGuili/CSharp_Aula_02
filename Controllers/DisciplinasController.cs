@@ -3,46 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Controllers.DAL;
 using Modelos;
 
 namespace Controllers
 {
     public class DisciplinasController
     {
-        List<Disciplina> tabelaDisciplina = new List<Disciplina>();
+        Contexto contextoD = new Contexto();
 
         public void Inserir(Disciplina a)
         {
-            tabelaDisciplina.Add(a);
+            contextoD.Disciplinas.Add(a);
+            contextoD.SaveChanges();
         }
 
         public List<Disciplina> ListarTodos()
         {
-            return tabelaDisciplina;
+            return contextoD.Disciplinas.ToList();
         }
 
         public void ExcluirDisciplina(int a)
         {
-            int posicao = -1;
-            int i = 0;
+         
+        }
 
-            foreach (Disciplina disciplina in tabelaDisciplina)
-            {
-                if (disciplina.Codigo == a)
-                {
-                    Console.WriteLine("   Disciplina " + disciplina.Materia + " excluída do sistema!");
-                    posicao = i;
-                }
-                i++;
-            }
-            if (posicao >= 0)
-            {
-                tabelaDisciplina.RemoveAt(posicao);
-            }
-            else
-            {
-                Console.WriteLine("   Erro na exclusão!");
-            }
+        public Disciplina BuscarPorID(int idDisciplina)
+        {
+            return contextoD.Disciplinas.Find(idDisciplina);
         }
     }
 }
