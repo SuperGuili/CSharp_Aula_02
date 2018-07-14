@@ -12,7 +12,7 @@ namespace Modelos
             get; set;
         }
 
-        [Required] //chave estrangeira
+        //[Required] //vai ser chave estrangeira
         public int Codigo
         {
             get; set;
@@ -23,13 +23,13 @@ namespace Modelos
             get; set;
         }
 
-        [Required]
+        //[Required]
         public string Professor
         {
             get; set;
         }
 
-        [Required]
+        //[Required]
         public string AnoLetivo
         {
             get; set;

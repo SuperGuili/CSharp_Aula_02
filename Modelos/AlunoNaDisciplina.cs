@@ -12,6 +12,7 @@ namespace Modelos
             get; set;
         }
 
+        //Chave estrangeira da tabela Disciplina.Codigo
         public int CodigoMatéria
         {
             get; set;
